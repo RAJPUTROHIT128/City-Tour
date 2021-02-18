@@ -24,7 +24,7 @@ export default class Tour extends Component {
                <div className="tour-info">
                    <h3>{city}</h3>
                    <h4>{name}</h4>
-                   <h5>info{""}} <span onClick={this.handelInfo}><i className="fas fa-caret-square-down" /></span></h5>
+                   <h5>info{""} <span onClick={this.handelInfo}><i className="fas fa-caret-square-down" /></span></h5>
                   {
                       this.state.showInfo && <p>{info}</p>
                   }
